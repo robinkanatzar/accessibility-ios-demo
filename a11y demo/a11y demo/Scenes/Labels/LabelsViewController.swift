@@ -9,12 +9,33 @@
 import UIKit
 
 class LabelsViewController: UIViewController {
-
+    
+    // MARK: Outlets
+    @IBOutlet weak var websiteLabel: UILabel!
+    @IBOutlet weak var intro: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Labels and Traits"
+        setupView()
+        setupAccessibility()
     }
 
+    private func setupView() {
+        self.title = "Labels and Traits"
+        
+        // Website Label
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+        websiteLabel.addGestureRecognizer(tap)
+        websiteLabel.isUserInteractionEnabled = true
+    }
+    
+    private func setupAccessibility() {
+        
+    }
 
+    // MARK: Actions
+    @objc func handleTap(_ sender: UITapGestureRecognizer) {
+        print("Hello World")
+    }
 }
