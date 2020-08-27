@@ -15,8 +15,7 @@
 		6B6FA5A824EFE20800B8FB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6FA5A624EFE20800B8FB92 /* LaunchScreen.storyboard */; };
 		6B6FA5B624EFE5ED00B8FB92 /* DesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FA5B524EFE5ED00B8FB92 /* DesignViewController.swift */; };
 		6B6FA5B824EFE66100B8FB92 /* BiggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FA5B724EFE66100B8FB92 /* BiggerViewController.swift */; };
-		6B6FA5BA24EFE69B00B8FB92 /* FlowIncorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FA5B924EFE69B00B8FB92 /* FlowIncorrectViewController.swift */; };
-		6B6FA5BC24EFE6CD00B8FB92 /* FlowCorrectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FA5BB24EFE6CD00B8FB92 /* FlowCorrectViewController.swift */; };
+		6B6FA5BA24EFE69B00B8FB92 /* FlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FA5B924EFE69B00B8FB92 /* FlowViewController.swift */; };
 		6B6FA5BE24EFE6F000B8FB92 /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6FA5BD24EFE6F000B8FB92 /* LabelsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,7 @@
 		6B6FA5A924EFE20800B8FB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B6FA5B524EFE5ED00B8FB92 /* DesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignViewController.swift; sourceTree = "<group>"; };
 		6B6FA5B724EFE66100B8FB92 /* BiggerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiggerViewController.swift; sourceTree = "<group>"; };
-		6B6FA5B924EFE69B00B8FB92 /* FlowIncorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowIncorrectViewController.swift; sourceTree = "<group>"; };
-		6B6FA5BB24EFE6CD00B8FB92 /* FlowCorrectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCorrectViewController.swift; sourceTree = "<group>"; };
+		6B6FA5B924EFE69B00B8FB92 /* FlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowViewController.swift; sourceTree = "<group>"; };
 		6B6FA5BD24EFE6F000B8FB92 /* LabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,8 +81,7 @@
 			children = (
 				6B6FA5B424EFE58700B8FB92 /* Design */,
 				6B6FA5B324EFE58200B8FB92 /* Bigger */,
-				6B6FA5B224EFE57B00B8FB92 /* FlowIncorrect */,
-				6B6FA5B124EFE57500B8FB92 /* FlowCorrect */,
+				6B6FA5B224EFE57B00B8FB92 /* Flow */,
 				6B6FA5B024EFE56500B8FB92 /* Labels */,
 			);
 			path = Scenes;
@@ -98,20 +95,12 @@
 			path = Labels;
 			sourceTree = "<group>";
 		};
-		6B6FA5B124EFE57500B8FB92 /* FlowCorrect */ = {
+		6B6FA5B224EFE57B00B8FB92 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				6B6FA5BB24EFE6CD00B8FB92 /* FlowCorrectViewController.swift */,
+				6B6FA5B924EFE69B00B8FB92 /* FlowViewController.swift */,
 			);
-			path = FlowCorrect;
-			sourceTree = "<group>";
-		};
-		6B6FA5B224EFE57B00B8FB92 /* FlowIncorrect */ = {
-			isa = PBXGroup;
-			children = (
-				6B6FA5B924EFE69B00B8FB92 /* FlowIncorrectViewController.swift */,
-			);
-			path = FlowIncorrect;
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		6B6FA5B324EFE58200B8FB92 /* Bigger */ = {
@@ -204,9 +193,8 @@
 				6B6FA5A024EFE20700B8FB92 /* ViewController.swift in Sources */,
 				6B6FA59C24EFE20700B8FB92 /* AppDelegate.swift in Sources */,
 				6B6FA5B824EFE66100B8FB92 /* BiggerViewController.swift in Sources */,
-				6B6FA5BC24EFE6CD00B8FB92 /* FlowCorrectViewController.swift in Sources */,
 				6B6FA5B624EFE5ED00B8FB92 /* DesignViewController.swift in Sources */,
-				6B6FA5BA24EFE69B00B8FB92 /* FlowIncorrectViewController.swift in Sources */,
+				6B6FA5BA24EFE69B00B8FB92 /* FlowViewController.swift in Sources */,
 				6B6FA59E24EFE20700B8FB92 /* SceneDelegate.swift in Sources */,
 				6B6FA5BE24EFE6F000B8FB92 /* LabelsViewController.swift in Sources */,
 			);
