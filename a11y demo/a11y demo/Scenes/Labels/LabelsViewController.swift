@@ -69,7 +69,7 @@ class LabelsViewController: UIViewController {
         mailImage.accessibilityTraits = .button
         mailImage.isAccessibilityElement = true
         
-        //mapImage.accessibilityLabel = "Show company location on map"
+        mapImage.accessibilityLabel = "Show company location on map"
         mapImage.accessibilityTraits = .button
         mapImage.isAccessibilityElement = true
     }

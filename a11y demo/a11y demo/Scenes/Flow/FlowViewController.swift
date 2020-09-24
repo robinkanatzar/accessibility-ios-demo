@@ -34,7 +34,7 @@ class FlowViewController: UIViewController {
     }
 
     private func setupAccessibility() {
-        //self.accessibilityElements = [cityNameLabel, nextCityButton, thingsToSeeLabel, eiffelTowerLabel, louvreLabel, notreDameLabel, thingsToEatLabel, baguetteLabel, croissantsLabel, macaronsLabel]
+        self.accessibilityElements = [cityNameLabel, nextCityButton, thingsToSeeLabel, eiffelTowerLabel, louvreLabel, notreDameLabel, thingsToEatLabel, baguetteLabel, croissantsLabel, macaronsLabel]
         
         coverImage.isAccessibilityElement = false
         
